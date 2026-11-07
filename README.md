@@ -1,27 +1,70 @@
+<div align="center">
+
 # FPVCraft
 
-Fly FPV drones in Minecraft with your real RC transmitter: acro and angle mode, Betaflight rates, battery sag and a rolling FPV camera.
+**Fly FPV drones in Minecraft with your real RC transmitter.**
 
-**Download:** [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fpvcraft)
+Acro and angle mode, Betaflight rates, battery sag and a rolling FPV camera.
 
-This repository is the public issue tracker for FPVCraft. The source code is not published here.
+[![CurseForge downloads](https://img.shields.io/curseforge/dt/1696193?style=flat-square&logo=curseforge&logoColor=white&label=downloads&labelColor=1C1F24&color=E8A33D)](https://www.curseforge.com/minecraft/mc-mods/fpvcraft)
+[![Latest version](https://img.shields.io/curseforge/v/1696193?style=flat-square&label=version&labelColor=1C1F24&color=2E333A)](https://www.curseforge.com/minecraft/mc-mods/fpvcraft/files/all)
+[![Minecraft](https://img.shields.io/badge/minecraft-1.21.1-2E333A?style=flat-square&labelColor=1C1F24)](https://www.curseforge.com/minecraft/mc-mods/fpvcraft/files/all)
+[![NeoForge](https://img.shields.io/badge/loader-NeoForge-2E333A?style=flat-square&labelColor=1C1F24)](https://neoforged.net)
+[![Environment](https://img.shields.io/badge/side-client%20%26%20server-2E333A?style=flat-square&labelColor=1C1F24)](#installation)
+[![Open issues](https://img.shields.io/github/issues/nikpottbecker/fpvcraft?style=flat-square&labelColor=1C1F24&color=2E333A)](https://github.com/nikpottbecker/fpvcraft/issues)
+
+[**Download on CurseForge**](https://www.curseforge.com/minecraft/mc-mods/fpvcraft) · [Report a bug](https://github.com/nikpottbecker/fpvcraft/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/nikpottbecker/fpvcraft/issues/new?template=feature_request.yml)
+
+</div>
+
+---
+
+## Features
+
+| | |
+|---|---|
+| **Real transmitter input** | Fly with your own RC transmitter connected as a game controller |
+| **Flight modes** | Acro for full manual control, angle for self-leveling |
+| **Betaflight rates** | Rates that feel like your real quad |
+| **Battery sag** | Voltage drops under load and over the flight |
+| **FPV camera** | Rolling first-person camera that follows the drone |
+
+## Installation
+
+1. Install [NeoForge](https://neoforged.net) for Minecraft 1.21.1.
+2. Download FPVCraft from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fpvcraft) and put it in your `mods` folder.
+3. Install it on the server too when playing multiplayer.
+4. Connect your transmitter as a USB game controller before starting the game.
 
 ## Supported versions
 
 | Minecraft | Loader | Status |
 |---|---|---|
-| 1.21.1 | NeoForge | Available |
+| 1.21.1 | NeoForge | ✅ Available |
+| 1.21.1 | Fabric | Planned |
+| 1.20.1 | Forge | Planned |
+| 26.x | Fabric / NeoForge | Planned |
 
-More versions and loaders are planned.
+Progress is tracked in [#2](https://github.com/nikpottbecker/fpvcraft/issues/2).
+
+## Roadmap
+
+- [ ] Free-flight mode without range limit or signal loss ([#1](https://github.com/nikpottbecker/fpvcraft/issues/1))
+- [ ] More Minecraft versions and loaders ([#2](https://github.com/nikpottbecker/fpvcraft/issues/2))
 
 ## Reporting a bug
 
-Open an [issue](../../issues/new/choose) and include:
+[Open an issue](https://github.com/nikpottbecker/fpvcraft/issues/new/choose) and include:
 
 - Minecraft, NeoForge and FPVCraft versions
-- Your transmitter/controller and how it is connected
+- Your transmitter and how it is connected
 - Steps to reproduce
-- `latest.log` or a crash report (via [mclo.gs](https://mclo.gs) or a gist)
+- `latest.log` or the crash report (upload it to [mclo.gs](https://mclo.gs) or a gist)
+
+## About this repository
+
+This is the public issue tracker and documentation for FPVCraft. The source code is not published here.
+Design rules for the mod and its pages are in [STYLE.md](STYLE.md).
 
 ## License
 
