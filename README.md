@@ -28,6 +28,7 @@ Acro and angle mode, Betaflight rates, battery sag and a rolling FPV camera.
 | **Betaflight rates** | Rates that feel like your real quad |
 | **Battery sag** | Voltage drops under load and over the flight |
 | **FPV camera** | Rolling first-person camera that follows the drone |
+| **Free flight** | No range limit in Creative, configurable per server |
 
 ## Installation
 
@@ -49,7 +50,7 @@ Progress is tracked in [#2](https://github.com/nikpottbecker/fpvcraft/issues/2).
 
 ## Roadmap
 
-- [ ] Free-flight mode without range limit or signal loss ([#1](https://github.com/nikpottbecker/fpvcraft/issues/1))
+- [x] Free-flight mode without range limit or signal loss (0.3.0) ([#1](https://github.com/nikpottbecker/fpvcraft/issues/1))
 - [ ] More Minecraft versions and loaders ([#2](https://github.com/nikpottbecker/fpvcraft/issues/2))
 
 ## Reporting a bug
